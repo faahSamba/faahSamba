@@ -1,0 +1,482 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: cursive;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: crimson;
+    border: 2px solid crimson;
+    padding: 15px 0px;
+}
+.max-width{
+    width: 1300px;
+    margin: auto;
+    padding: 0 80px;
+}
+.navbar .max-width{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.navbar .logo a 
+{
+color: white;
+font-size: 35px;
+font-weight: 600;
+}
+.navbar .logo a span
+{
+    color: black;
+}
+.navbar .menu
+{
+    padding-top: 10px;
+}
+.navbar .menu li
+{
+display: inline-block;
+
+}
+.navbar .menu li a
+{
+color: white;
+font-size: 18px;
+font-weight: 500;
+margin-left: 25px;
+transition: color 0.3s ease;
+}
+.navbar .menu li a:hover
+{
+color: black;
+}
+/***************************************************************/
+.home
+{
+    width: 100%;
+    height: 800px;
+    background-image: url('R.jpg');
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .max-width
+{
+    color: white;
+    margin: auto 120px;
+}
+.home .home-content .text-1
+{
+    font-size: 40px;
+    font-weight: 600;
+}
+.home .home-content .text-2
+{
+    font-size: 60px;
+    font-weight: 500;
+    color: crimson;
+}
+.home .home-content .text-3
+{
+    font-size: 60px;
+    font-weight: 700;
+
+}
+.home .home-content .text-3 span
+{
+    color: crimson;
+}
+.home .home-content .button-one
+{
+    background-color: crimson;
+    font-size: 40px;
+    font-weight: 200px;
+    color: white;
+    border: 4px solid crimson;
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.home .home-content .button-one:hover
+{
+background: none;
+}
+/*********************************************************************************************/
+.about .title
+{
+position: relative;
+font-size: 40px;
+font-weight: 500;
+font-family: sans-serif;
+margin-bottom: 60px;
+text-align: center;
+text-decoration:underline crimson ;
+}
+.about .about-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .culumn-left
+{
+width: 45%;
+}
+.about .culumn-left img
+{
+    height: 400px;
+    width: 400px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.about .culumn-right
+{
+    width: 55%;
+}
+.about .culumn-right .text
+{
+font-size: 35px;
+font-weight: 600;
+}
+.about .culumn-right .text span
+{
+    color: crimson;
+}
+.about .culumn-right p
+{
+    text-align: justify;
+    font-size: 20px;
+}
+.about .culumn-right a
+{
+    display: inline-block;
+    font-size: 40px ;
+    color: white;
+    background-color: crimson;
+    border-radius: 20px;
+    font-weight: 200;
+    padding: 10px 40px;
+    margin-top: 20px;
+}
+.about
+{
+    padding: 50px 150px;
+}
+.about .culumn-right a:hover
+{
+    background: none;
+    color: crimson;
+    border:4px solid crimson;
+}
+/*****************************************************************************************/
+.competence 
+{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.competence .Developpeur
+{
+    width: 300px;
+    border: 2px solid rgb(51, 50, 50);
+    background-color: rgb(51, 50, 50);
+    width: 25%;
+    padding: 10px 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.competence .text1 
+{
+    color: crimson;
+    text-align:center ;
+    font-weight: 600;
+    font-size: 1000;
+}
+.competence .Web
+{
+    width: 300px;
+    border: 2px solid rgb(51, 50, 50);
+    background-color: rgb(51, 50, 50);
+    width: 25%;
+    padding: 10px 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.competence .text2
+{
+    color: crimson;
+    text-align:center ;
+    font-weight: 600;
+    font-size: 1000;
+}
+.competence .programme
+{
+    width: 300px;
+    border: 2px solid rgb(51, 50, 50);
+    background-color: rgb(51, 50, 50);
+    width: 25%;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.competence .text3
+{
+    color: crimson;
+    text-align:center ;
+    font-weight: 600;
+    font-size: 1000;
+}
+.titre
+{
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin:60px 0;
+    text-align: center;
+    text-decoration:underline crimson ; 
+}
+.about-moi
+{
+display: flex;
+}
+.about-moi
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 200px;
+    margin-bottom:200 ;
+}
+.a 
+{
+    text-align: justify;
+}
+.moi 
+{
+    margin-bottom: 300;
+    padding-bottom: 200px;
+}
+.b
+{
+
+    text-align: center;
+    color: crimson;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+/********************************************************************************************/
+.team
+{
+    background-color: white;
+
+}
+.team .text 
+{
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    margin-top:60px;
+    font-size: 40px;
+
+}
+.team .team-content
+{
+
+    margin: auto 120px;
+}
+.team .WIN
+{
+    font-weight: 600px;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+}
+.team .MKN
+{
+    width: 300px;
+    border: 2px solid gray;
+    background-color: rgb(51, 50, 50);
+    width: 25%;
+    padding: 10px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.team .Max
+{
+    
+    width: 300px;
+    border: 2px solid gray;
+    background-color: rgb(51, 50, 50);
+    width: 25%;
+    padding: 10px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.team .FSN
+{
+    border-radius: 10px;
+    width: 300px;
+    border: 2px solid gray;
+    background-color: rgb(51, 50, 50);
+    width: 25%;
+    padding: 10px 40px;
+    margin-top: 20px;
+}
+.team .tout 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+.K
+{
+    color: crimson;
+    font-weight: 300px;
+    text-align: center;
+
+}
+.M
+{
+    text-align: justify;
+    color: white;
+}
+.team .MKN img
+{
+    height: 100px;
+    width: 100px;
+    align-content: center;
+    border: 3px solid crimson;
+    border-radius: 80px;
+    text-align: center;
+    object-fit: cover;
+    
+}
+.team .Max img
+{
+    object-fit: cover;
+    border: 3px solid crimson;
+    border-radius: 80px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    align-content: center;
+}
+.team .FSN img
+{
+    object-fit: cover;
+    border: 3px solid crimson;
+    border-radius: 80px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    
+}
+.team .WIN span
+{
+    color: crimson;
+}
+.team .team-content
+{
+    padding-bottom: 200px;
+}
+/****************************************************************************************/
+.mere .digue
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+.mere .a
+{
+color: black;
+text-align: center;
+font-family: sans-serif;
+}
+.mere .b
+{
+color: black;
+text-align: center;
+font-family: sans-serif;
+}
+.mere .b span
+{
+    color: crimson;
+}
+.mere .txt
+{
+color: black;
+font-weight: 600;
+}
+.mere .txt1
+{
+    text-align: justify;
+    justify-content: center;
+    font-size: 18px;
+}
+.mere .digue .fille
+{
+    width: 55%;
+}
+.mere .digue .fils
+{
+    width: 45%;
+    height: 400px;
+
+}
+.mere .digue
+{
+    padding: 60px 300px;
+    font-weight: 100;
+    justify-content: right;
+}
+.mere .digue .fils .describe
+{
+    height: 150px;
+}
+.mere .digue .fils a
+{
+    display: inline-block;
+    color: white;
+    background-color: crimson;
+    border-radius: 10px;
+    font-weight: 100;
+    height:30px;
+    padding: 5px 10px;
+}
+.mere .digue .fils a:hover
+{
+    background: none;
+    color: crimson;
+    border:2px solid crimson;
+}
+.mere .digue .fils .txt2 
+{
+    color: black;
+font-weight: 600;
+}
+.mere .digue .fils .p2 
+{
+    height: 150px;
+}
+
+
+/******************************************************************************************************/
+.foot
+{
+ background-color: crimson;
+ color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200px;
+}
